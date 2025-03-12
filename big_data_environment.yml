@@ -1,0 +1,12 @@
+name: big_data_environment
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - pandas>=2.2
+  - numpy>=2.2
+  - scikit-learn=1.6.1
+  - seaborn=0.13.2
+  - scipy>=1.15
+  - matplotlib=3.10.0
+  - jupyter-book=1.0

@@ -1,0 +1,31 @@
+format: jb-book
+root: intro
+parts:
+  - caption: "Week 1: Data Manipulation with Pandas"
+    chapters:
+    - file: week_1/intro
+    - file: week_1/finalbook_part1
+    - file: week_1/finalbook_part2
+  - caption: "Week 2: Loops and Functions"
+    chapters:
+    - file: week_2/intro
+    - file: week_2/finalbook
+  - caption: "Week 3: Visualizations with Matplotlib and Seaborn"
+    chapters:
+    - file: week_3/intro
+    - file: week_3/finalbook
+  - caption: "Week 4: Regression Algorithms"
+    chapters:
+    - file: week_4/intro
+    - file: week_4/finalbook
+  - caption: "Week 5: Classification Algorithms"
+    chapters:
+    - file: week_5/intro
+    - file: week_5/finalbook
+  - caption: "Week 6: Clustering Algorithms"
+    chapters:
+    - file: week_6/intro
+    - file: week_6/finalbook
+  - caption: Conclusion
+    chapters:
+    - file: conclusion 
