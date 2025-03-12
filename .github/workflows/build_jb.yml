@@ -19,7 +19,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r practicals_jn_book/requirements.txt
-          pip install jupyter-book
 
       - name: Build documentation (only on macos-latest)
         run: jupyter-book build practicals_jn_book --all -W
