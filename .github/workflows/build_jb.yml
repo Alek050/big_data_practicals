@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-jupyter-book:
-    runs-on: ubuntu-24.04
+    runs-on: macos-latest
 
     steps:
       - name: Set up Python
