@@ -11,7 +11,7 @@ build:
 
 python:
    install:
-   - requirements: docs/requirements.txt
+   - requirements: practicals_jn_book/requirements.txt
 
 formats:
   - pdf
