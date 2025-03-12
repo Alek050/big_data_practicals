@@ -16,3 +16,6 @@ python:
 formats:
   - pdf
   - epub
+
+sphinx:
+  configuration: practicals_jn_book/conf.py
