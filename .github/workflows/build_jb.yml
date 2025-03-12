@@ -5,7 +5,7 @@ on:
 
 jobs:
   build-jupyter-book:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
 
     steps:
       - name: Set up Python
@@ -21,5 +21,5 @@ jobs:
           pip install -r practicals_jn_book/requirements.txt
           pip install jupyter-book
 
-      - name: Build documentation (only on ubuntu-latest)
+      - name: Build documentation (only on macos-latest)
         run: jupyter-book build practicals_jn_book --all
