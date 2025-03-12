@@ -177,4 +177,5 @@ cython_debug/
 .DS_Store
 
 # jupyter-book
-practicals_jn_book/_build/*
+practicals_jn_book/_build
+practicals_jn_book/conf.py

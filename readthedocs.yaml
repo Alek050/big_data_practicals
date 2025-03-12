@@ -1,0 +1,18 @@
+version: 2
+
+# Set the version of Python and other tools you might need
+build:
+  os: macos-latest
+  tools:
+    python: "3.12"
+  jobs:
+    pre_build:
+      - "jupyter-book config sphinx practicals_jn_book/"
+
+python:
+   install:
+   - requirements: docs/requirements.txt
+
+formats:
+  - pdf
+  - epub
