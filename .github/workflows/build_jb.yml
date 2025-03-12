@@ -22,4 +22,4 @@ jobs:
           pip install jupyter-book
 
       - name: Build documentation (only on macos-latest)
-        run: jupyter-book build practicals_jn_book --all
+        run: jupyter-book build practicals_jn_book --all -W
