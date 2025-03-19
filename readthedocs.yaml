@@ -12,8 +12,7 @@ python:
    install:
    - requirements: practicals_jn_book/requirements.txt
 
-formats:
-  - all
+formats: all
 
 sphinx:
   configuration: practicals_jn_book/conf.py
