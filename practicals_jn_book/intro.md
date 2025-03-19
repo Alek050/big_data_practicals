@@ -1,6 +1,6 @@
 # Welcome to the Big Data Practicals
 
-This Jupyter Book is created as part of the Big Data for Sports and Human Movement Sciences course at the University of Groningen. The course is developed originally by Matthias Kempe, but has had many contributors to improving course over the years. Special thanks to Floris Goes, Sophie de klerck, Rowie Janssen, and Alexander Oonk for creating, improving, and updating all code over the years.
+This Jupyter Book is created as part of the Big Data for Sports and Human Movement Sciences course at the University of Groningen. The course is developed originally by Matthias Kempe, but has had many contributors to improving course over the years. Special thanks to Floris Goes, Sophie de Klerck, Rowie Janssen, and Alexander Oonk for creating, improving, and updating all code over the years.
 
 ## How to use this book
 
