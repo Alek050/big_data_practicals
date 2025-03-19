@@ -13,3 +13,5 @@ Rescaling
 Means, median, Std
 Correlation
 Plotting
+
+The dataset used is a modified version of the [Pokemon dataset](https://www.kaggle.com/datasets/rounakbanik/pokemon) and can be obtained [here](https://github.com/Alek050/big_data_practicals/tree/main/data/week_2)

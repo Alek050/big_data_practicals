@@ -5,4 +5,4 @@ During the past two weeks, you have learned about supervised learning. Hopefully
 At this point you should feel fairly comfortable with coding in Python, and importing, inspecting and manipulating data should start to become a relatively easy - though sometimes tedious - task. Therefore, we will be working with multiple datasets this week. We will start with clustering in a familiar dataset, and then dive into different methods using some new data.
 
 
-This document was made in Python using [Jupyter books](https://jupyterbook.org/en/stable/intro.html). Output is the result of real code in IPython. Code blocks are hidden from view to not make the exercises too easy. You can reveal the answers, but are not encouraged to do so untill after the practical. Now fire up ``spyder`` and get started!
+The datasets used are a modified version of the [DATEV 2018 Challenge Roth dataset](https://www.endurance-data.com/en/results/245-challenge-roth/all/) and the [Orthopedic Patients dataset](https://www.kaggle.com/datasets/uciml/biomechanical-features-of-orthopedic-patients) and can be obtained [here](https://github.com/Alek050/big_data_practicals/tree/main/data/week_6)
