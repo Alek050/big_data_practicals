@@ -1,6 +1,5 @@
 version: 2
 
-# Set the version of Python and other tools you might need
 build:
   os: ubuntu-24.04
   tools:
@@ -8,15 +7,13 @@ build:
   jobs:
     pre_build:
       - "jupyter-book config sphinx practicals_jn_book/"
-  timeout: 600
 
 python:
    install:
    - requirements: practicals_jn_book/requirements.txt
 
 formats:
-  - pdf
-  - epub
+  - all
 
 sphinx:
   configuration: practicals_jn_book/conf.py
