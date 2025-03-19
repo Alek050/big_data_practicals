@@ -8,8 +8,7 @@ build:
   jobs:
     pre_build:
       - "jupyter-book config sphinx practicals_jn_book/"
-  build:
-    timeout: 600
+  timeout: 600
 
 python:
    install:
