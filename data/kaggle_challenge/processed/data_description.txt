@@ -1,0 +1,49 @@
+### PLAYERS ###
+- player_id: identifier of a player_id.
+- hand: hand used for serving. R = right, L = left, U = unknown.
+- ioc: the land code based on the ioc standard.
+- height: the height of the athelte
+- birth_date: the birth date of the athelte
+
+
+### RANKINGS ###
+- ranking_date: the date of the ranking.
+- rank: the rank of the player.
+- player_id: identifier of a player.
+
+
+### TOURNAMENTS ###
+- tournament_id: identifier of the tournament.
+- surface: the type of court surface (e.g., Hard, Clay, Grass).
+- draw_size: the number of players in the tournament draw.
+- tourney_level: the level of the tournament:
+    - For men: 'G' = Grand Slams, 'M' = Masters 1000s, 'A' = other tour-level events, 'C' = Challengers, 'S' = Satellites/ITFs, 'F' = Tour finals and other season-ending events, and 'D' = Davis Cup 
+    - For women, there are several additional tourney_level codes, including 'P' = Premier, 'PM' = Premier Mandatory, and 'I' = International. The various levels of ITFs are given by the prize money (in thousands), such as '15' = ITF $15,000. Other codes, such as 'T1' for Tier I (and so on) are used for older WTA tournament designations. 'D' is used for Federation/Fed/Billie Jean King Cup, and also for Wightman Cup and Bonne Bell Cup.
+    - Others (for both genders): 'E' = exhibition (events not sanctioned by the tour, though the definitions can be ambiguous), 'J' = juniors, and 'T' = team tennis, which does yet appear anywhere in the dataset but will at some point.
+
+
+### MATCHES ###
+- winner_id: player id of the winning player.
+- loser_id: player id of the winning player.
+- tournament_id: id of the tournament the match was played in. 
+- year: year the match was played.
+- date: date the match was played.
+- score: final score of the match.
+- best_of: maximum number of sets played to win.
+- minutes: time the match took.
+- * columns for both winners (w) and losers (l):
+    - seed: the the pre-tournament ranking or placement of a player in the tournament.
+    - ace: number of aces hit.
+    - df: number of double faults on the service.
+    - svpt: number of serve points.
+    - 1stIn: number of first serves made.
+    - 1stWon: number of first-serve points won.
+    - 2ndWon: number of second-serve points won.
+    - SvGms: number of serve games.
+    - bpSaved: number of break points saved.
+    - bpFaced: number of break points faced.
+- player_1: player id of the first player, 
+- player_2: player id of the second player 
+- player_1_seed: the seed of the first player
+- player_2_seed: the seed of the second player 
+- player_1_won: whether player 1 won the match or not
